@@ -35,6 +35,7 @@
     [self.view addSubview:collectionV] ;
     
     [collectionV registerClass:[CustomCollectionViewCell class] forCellWithReuseIdentifier:@"cell"] ;
+    /*注释是这样的*/
     
 }
 
